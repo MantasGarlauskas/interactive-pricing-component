@@ -33,7 +33,7 @@ This is a solution to the [Interactive pricing component challenge on Frontend M
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://mantasgarlauskas.github.io/interactive-pricing-component/)
 
 ## My process
 
