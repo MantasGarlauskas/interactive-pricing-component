@@ -1,0 +1,15 @@
+.bottom__section button {
+    cursor: pointer;
+    font-size: 0.6rem;
+    font-weight: 600;
+    border: none;
+    margin-top: 1.5rem;
+    background: hsl(227, 35%, 25%);
+    padding: 1em 3.5em;
+    color: hsl(226, 100%, 87%);
+    border-radius: 2rem;
+}
+
+button:hover {
+    color: white;
+}

@@ -1,0 +1,63 @@
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 2.5rem;
+    height: 1.5rem;
+    margin: 0 0.5rem;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.switch-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 1.2rem;
+    background-color: hsl(224, 65%, 95%);
+    transition: .3s;
+}
+
+.switch-slider:before {
+    position: absolute;
+    content: "";
+    height: 0.8rem;
+    width: 0.8rem;
+    left: 0.125rem;
+    bottom: 0.2rem;
+    background-color: white;
+    transition: .4s;
+}
+
+input:checked+.switch-slider {
+    background-color: hsl(174, 86%, 45%);
+}
+
+input:checked+.switch-slider:hover {
+    background-color: hsl(224, 65%, 95%);
+}
+
+input:hover+.switch-slider {
+    background-color: hsl(174, 86%, 45%);
+}
+
+input:checked+.switch-slider:before {
+    transform: translateX(1.4rem);
+}
+
+
+/* Rounded switch-sliders */
+
+.switch-slider.round {
+    border-radius: 34px;
+}
+
+.switch-slider.round:before {
+    border-radius: 50%;
+}
